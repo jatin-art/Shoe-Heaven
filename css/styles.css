@@ -1,0 +1,179 @@
+
+        /* Add custom styles here if needed */
+        /* Color Scheme */
+        :root {
+            --primary-color: #007bff; /* Blue */
+            --secondary-color: #28a745; /* Green */
+            --accent-color: #ffc107; /* Yellow */
+            --neutral-color:white; /* Light Gray */
+        }
+        /* Header Background */
+        header {
+            background-color: var(--neutral-color);
+        }
+        /* Navigation Links */
+        .navbar-nav .nav-link {
+            color: var(--primary-color);
+        }
+        .navbar-nav .nav-link:hover {
+            color: var(--accent-color);
+        }
+        /* Carousel Controls */
+        .carousel-control-prev, .carousel-control-next {
+            color: var(--primary-color);
+        }
+        /* Carousel Indicators */
+        .carousel-indicators li {
+            background-color: var(--primary-color);
+        }
+        .carousel-indicators .active {
+            background-color: var(--accent-color);
+        }
+        /* Categories Section Background */
+        /* Blue-themed Section Background */
+        .bg-primary {
+            background-color: var(--primary-color);
+        }
+        /* Blue-themed Section Text */
+        .bg-primary .text-white {
+            color: #fff;
+        }
+        /* New Arrival Section Background */
+        /* Footer Background */
+        footer {
+            background-color: var(--primary-color);
+        }
+        /* Footer Text Color */
+        footer, footer a {
+            color: #fff;
+        }
+        .card-img-top.rounded-circle {
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+
+        .carousel-caption
+        {
+            text-align: left!important;
+            bottom: 20%!important;
+            left:12%
+        }
+        .card1 {
+            margin: 0 auto;
+            border: none;
+        }
+        .card1 .carousel-item1 {
+            min-height: 190px;
+        }
+        .card1 .carousel-caption1 {
+            padding: 0;
+            right: 15px;
+            left: 15px;
+            top: 15px;
+            color: #3d3d3d;
+            border: 1px solid #ccc;
+            min-height:175px;
+            padding: 15px;
+        }
+        .card1 .carousel-caption1 .col-sm-3 {
+            display: flex;
+            align-items: center;
+        }
+        .card1 .carousel-caption1 .col-sm-9 {
+            text-align: left;
+        }
+        .card1 .carousel-control-prev, .card1 .carousel-control-next1 {
+            color: #3d3d3d !important;
+            opacity: 1 !important;
+        }
+        .carousel-control-prev-icon1, .carousel-control-next-icon1 {
+            background-image: none;
+            color: #fff;
+            font-size: 14px;
+            background-color: #cd3a54;
+            height: 32px;
+            line-height: 32px;
+            width: 32px;
+        }
+        .carousel-control-prev-icon1:hover, .carousel-control-next-icon1:hover {
+            opacity: 0.85;
+        }
+        .carousel-control-prev1 {
+            left: 40%;
+            top: 110%;
+        }
+        .carousel-control-next1 {
+            right: 40%;
+            top: 110%;
+        }
+        .midline {
+            width: 60px;
+            border-top: 1px solid #d43025;
+        }
+        .carousel-caption1 h2 {
+            font-size: 14px;
+        }
+        .carousel-caption1 h2 span {
+            color: #cd3a54;
+        }
+         @media (min-width: 320px) and (max-width: 575px) {
+        .carousel-caption1 {
+            position: relative;
+        }
+        .card1 .carousel-caption1 {
+            left: 0;
+            top: 0;
+            margin-bottom: 15px;
+        }
+        .card1 .carousel-caption1 img {
+            margin: 0 auto;
+        }
+        .carousel-control-prev1 {
+            left: 35%;
+            top: 105%;
+        }
+        .carousel-control-next1 {
+            right: 35%;
+            top: 105%;
+        }
+        .card1 .carousel-caption1 h3 {
+            margin-top: 0;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        }
+        @media (min-width: 576px) and (max-width: 767px) {
+        .carousel-caption1 {
+            position: relative;
+        }
+        .card1 .carousel-caption1 {
+            left: 0;
+            top: 0;
+            margin-bottom: 15px;
+        }
+        .card1 .carousel-caption1 img {
+            margin: 0 auto;
+        }
+        .card1 .carousel-caption1 h3, .card1 .carousel-caption1 small {
+            text-align: center;
+        }
+        .carousel-control-prev1 {
+            left: 35%;
+            top: 105%;
+        }
+        .carousel-control-next1 {
+            right: 35%;
+            top: 105%;
+        }
+        }
+        @media (min-width: 767px) and (max-width: 991px) {
+        .card1 .carousel-caption1 h3 {
+            margin-top: 0;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        }
+        
+        
+        
